@@ -1,0 +1,66 @@
+
+
+body {
+    background: #23d2b6;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    padding: 30px;
+}
+
+legend {
+    text-align: center;
+    background: #188c7a;
+    width: 100%;
+    height: 3em;
+    padding: 0;
+    color: whitesmoke;
+    border: #23d2b6 solid 2px;
+}
+
+legend h1 {
+    position: relative;
+    bottom: 15px;
+}
+
+fieldset{
+    background: whitesmoke;
+    color: #23d2b6;
+    border: #23d2b6 solid 2px;
+    width: 300px;
+    padding: 0;
+}
+
+.field {
+    height: 2em;
+    clear: both;
+    text-align: right;
+    margin: 20px;
+}
+
+.field input {
+    border: #23d2b6 solid 1px;
+}
+
+label {
+    font-weight: bold;
+    float:left;
+}
+
+#submit {
+    color: #188c7a;
+    background: whitesmoke;
+}
+#reset {
+    color: whitesmoke;
+    background: #23d2b6;
+
+}
+
+#reset, #submit {
+    position: relative;
+    left: 3px;
+    border: whitesmoke solid 1px;
+    width: 149px;
+    height: 2em;
+    font-weight: bold;
+}

@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
 <form action="http://localhost:8080/converter" name="converter" method="get">
     <fieldset>
-        <legend>CONVERTER</legend>
-        <label for="from">FROM:</label>
-        <input type="text" name="from" id="from" required>
-        <label for="to">TO:</label>
-        <input type="text" name="to" id="to" required>
-        <label for="sum">AMOUNT:</label>
-        <input type="number" name="sum" id="sum" required>
+        <legend><h1>Converter</h1></legend>
+
+        <div class="field">
+            <label for="from">From:</label>
+            <input type="text" name="from" id="from" required>
+        </div>
+        <div class="field">
+            <label for="to">To:</label>
+            <input type="text" name="to" id="to" required>
+        </div>
+        <div class="field">
+            <label for="sum">Amount:</label>
+            <input type="number" name="sum" id="sum" required>
+        </div>
     </fieldset>
-    <input type="submit">
-    <input type="reset">
+    <input type="submit" id="submit">
+    <input type="reset" id="reset">
 </form>
 
 </body>
