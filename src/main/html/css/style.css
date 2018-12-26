@@ -24,7 +24,7 @@ legend h1 {
 
 fieldset{
     background: whitesmoke;
-    color: #23d2b6;
+    color: #188c7a;
     border: #23d2b6 solid 2px;
     width: 300px;
     padding: 0;
@@ -40,6 +40,7 @@ fieldset{
 .field input {
     border: #23d2b6 solid 1px;
 }
+
 
 label {
     font-weight: bold;
